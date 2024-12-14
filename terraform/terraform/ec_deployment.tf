@@ -31,7 +31,7 @@ resource "ec_deployment" "elastic_deployment" {
       size = "1g"
       autoscaling {
         min_size = "1g"
-        max_size = "8g"
+        max_size = "1g"
       }
     }
 
